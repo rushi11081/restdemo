@@ -1,0 +1,125 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=Samsung tab
+				productAddedBy=637468f1d7778f5797320c1b
+				productCategory=electronics
+				productSubCategory=display
+				productPrice=15500
+				productDescription=samsung series
+				productFor=men
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzc0NjhmMWQ3Nzc4ZjU3OTczMjBjMWIiLCJ1c2VyRW1haWwiOiJteXN0dWR5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjg0NDY4MTI5MTYsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2Njg1NzM4MTgsImV4cCI6MTcwMDEzMTQxOH0.9s9bmUO9CmlbViLPxDz9yZMrJoeRQ_B7eoKqrDrxypA
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = 2.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\Rushikesh Patil\Desktop\2.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 16 Nov 2022 04:43:39 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-RF45lCUAGE1UO9lDVfwI+gvT7bA"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "63746a7bd7778f5797320d10",
+    "message": "Product Added Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzc0NjhmMWQ3Nzc4ZjU3OTczMjBjMWIiLCJ1c2VyRW1haWwiOiJteXN0dWR5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjg0NDY4MTI5MTYsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2Njg1NzM4MTgsImV4cCI6MTcwMDEzMTQxOH0.9s9bmUO9CmlbViLPxDz9yZMrJoeRQ_B7eoKqrDrxypA
+				Accept=*/*
+				Content-Type=multipart/form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productImage; filename = 2.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\Rushikesh Patil\Desktop\2.jpg
+				------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productName; filename = file
+				Content-Type: text/plain
+
+				Samsung tab
+				------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productAddedBy; filename = file
+				Content-Type: text/plain
+
+				637468f1d7778f5797320c1b
+				------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productCategory; filename = file
+				Content-Type: text/plain
+
+				electronics
+				------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productSubCategory; filename = file
+				Content-Type: text/plain
+
+				display
+				------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productPrice; filename = file
+				Content-Type: text/plain
+
+				15500
+				------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productDescription; filename = file
+				Content-Type: text/plain
+
+				samsung series
+				------------
+				Content-Disposition: form-data; boundary="TDgNFJ60Pyd4hbG8-RY2_mxuy8f63_ZBr"; name = productFor; filename = file
+				Content-Type: text/plain
+
+				men
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 16 Nov 2022 04:43:40 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-uC260BKVGLKGpGK93/px9YbYhEc"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "63746a7cd7778f5797320d13",
+    "message": "Product Added Successfully"
+}
