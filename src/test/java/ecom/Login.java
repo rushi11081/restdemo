@@ -174,7 +174,7 @@ public class Login extends Testbase
 
 		Assert.assertEquals(response.statusCode(),201);
 		
-		System.out.println("The response time is " +response.time() + " ms");
+		System.out.println("The Response Time is " +response.time() + " ms");
 
 
 
@@ -248,7 +248,7 @@ public class Login extends Testbase
 
 		Assert.assertEquals(response.statusCode(),201);
 		
-		System.out.println("The response time is " +response.time() + " ms");
+		System.out.println("The Response Time is " +response.time() + " ms");
 		
 		System.out.println("header is " +response.getHeaders());
 
@@ -300,7 +300,7 @@ public class Login extends Testbase
 
 		Assert.assertEquals(response1.statusCode(),200);
 		
-		System.out.println("The response time is " +response1.time() + " ms");
+		System.out.println("The Response Time is " +response1.time() + " ms");
 		
 	}
 
